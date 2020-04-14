@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: red;
+    color: black;
+    font-size: 14px;
+}
+
+html, body{
+    height: 100%;
+}
+#headerLinks h1 {
+    text-align: left;
+    margin: 18.75px 0 0 0;
+}
+
+#headerLinks {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+}
+
+#headerRechts {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 49%;
+    text-align: center;
+}
+
+#headerRechts a:hover {
+    color: red;
+}
+
+#header {
+    color: red;
+    height: 75px;
+    background-color: black;
+    width: 100%;
+}
+
+#headerRechts li a {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 28px 0 0 50px;
+}
+
+#header li {
+    display: inline-block;
+}
+
+footer {
+    color: red;
+    background-color: black;
+    height: 55px;
+    width: 100%;
+    padding: 20px 0 0 0;
+    margin-top: -130px;
+    clear: both;
+}
+
+#Content {
+    min-height: 100%;
+    width: auto;
+    overflow: auto;
+    margin-bottom: -130px;
+    position: relative;
+}
+
+#inloggen {
+    float: left;
+    margin: 50px 0 0 500px;
+}
+
+#registratie {
+    float: right;
+    margin: 50px 500px 0 0;
+}
+
+#registratie h2 {
+    float: right;
+}
+
+#profielTable {
+    border: solid black 3px;
+    margin: 0 auto;
+}
+
+#bestelling {
+    margin: 20px
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.container {
+    float: right;
+    padding: 0;
+}
+
+#textHome {
+    width: 22.5%;
+    float: left;
+}
+
+#textHome strong {
+    padding: 0;
+    margin: 150px;
+}
+
+#textHome p {
+    text-align: center;
+}
+
+.ticketPlaatje {
+    width: 100px;
+    height: 100px;
+    margin: 0 0 0 100px;
+}
+
+
+
